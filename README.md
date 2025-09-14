@@ -36,6 +36,13 @@ Attributions
 All HTML and CSS code was written specifically for this course project.
 
 Portions of the CSS (e.g., Flexbox layout and button styling) were adapted or generated with the help of ChatGPT 
+  CSS for flexbox alignment in the navigation bar (display: flex; align-items: center; justify-content: space-between;).
+
+  CSS for spacing and padding between links and buttons (margin, padding, hover states).
+
+  CSS for background colors and borders of “Suggestions” and “Carts” sections.
+
+  Mock “Move Plan to Cart” button styling and suggested placement.
 
 
 The overall design is based on the Path@Penn interface but simplified for prototype demonstration.
