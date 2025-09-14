@@ -37,8 +37,5 @@ All HTML and CSS code was written specifically for this course project.
 
 Portions of the CSS (e.g., Flexbox layout and button styling) were adapted or generated with the help of ChatGPT 
 
-styles
-
-.
 
 The overall design is based on the Path@Penn interface but simplified for prototype demonstration.
