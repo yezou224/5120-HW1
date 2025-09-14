@@ -1,0 +1,119 @@
+:root{ --navy:#011F5B; --red:#990000; --white:#ffffff; --radius:6px; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:#fff; font-family:Arial, Helvetica, sans-serif; color:#000; }
+
+/* Header */
+.penn-bar{ background:var(--navy); color:#fff; }
+.penn-brand{ display:flex; align-items:center; gap:10px; padding:8px 12px; }
+.logo{ height:18px; width:auto; display:block; }
+.welcome{ font-size:13px; }
+.hero{ background:var(--red); color:#fff; padding:10px 12px; font-size:20px; font-weight:600; }
+
+/* Adjust Penn bar with logo and text */
+.penn-brand {
+  display: flex;
+  justify-content: space-between; /* logo+PENN left, Welcome right */
+  align-items: center;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 8px 12px;
+}
+
+/* Make the top navy bar full width like the red bar */
+.penn-bar {
+  background: var(--navy);
+  color: #fff;
+  width: 100%;              /* full width */
+}
+
+/* Inner container to align logo + text (match hero width) */
+.penn-bar-container {
+  max-width: 420px;         /* same as hero + content */
+  margin: 0 auto;           /* center horizontally */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+
+.logo {
+  height: 28px;
+  width: auto;
+}
+
+
+.hero-container {
+   display: flex;
+  justify-content: space-between;   /* keep left vs right separation */
+  align-items: center;
+  max-width: 420px;                 /* align with page content */
+  margin: 0 auto;                   /* center container */
+}
+
+.hero {
+  background: var(--red);
+  color: #fff;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;           /* make it full width */
+  text-align: left;      /* align text to the left */
+  box-sizing: border-box;
+}
+
+
+
+
+/* Layout */
+.container{ max-width:420px; margin:12px auto; padding:0 12px; }
+.section-title{ margin:18px 0 8px; font-size:14px; font-weight:700; }
+
+/* Buttons (full width navy/red) */
+.btn{
+  width:100%; margin:10px 0; padding:12px;
+  font-weight:700; letter-spacing:.3px; border:none; border-radius:0;
+  background:var(--navy); color:#fff; cursor:pointer;
+  appearance:none; -webkit-appearance:none;
+}
+.btn:active{ filter:brightness(.95); }
+.btn-red{ background:var(--red); }
+
+/* Blocks + titles */
+.block{ margin:12px 0; }
+.block-title{
+  background:var(--navy); color:#fff; padding:10px 12px; font-weight:700; border-radius:0;
+}
+
+/* Selects */
+.select{
+  width:100%; margin-top:6px; padding:10px 8px;
+  border:1px solid #dcdcdc; border-radius:0; background:#fff;
+  appearance:none; -webkit-appearance:none;
+}
+
+/* Section headers (Suggestions, Carts) */
+.section-title {
+  margin: 18px 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  background: #f2f4f8;   /* light gray bar behind */
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc; /* subtle border */
+}
+
+
+/* Toast */
+.toast{
+  margin-top:8px; background:#e6f4ea; color:#137333; border:1px solid #b7e2b7;
+  padding:10px; font-weight:600;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e6f0f8;  /* light blue */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}

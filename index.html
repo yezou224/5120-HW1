@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Path@Penn Mock</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="penn-bar">
+    <div class="penn-bar">
+  <div class="penn-brand">
+    <img src="image/logo.png" alt="Penn Logo" class="logo">
+    <span class="welcome">Welcome, <strong>Peggy</strong></span>
+  </div>
+<!-- Hero section -->
+<div class="hero-container">
+  <div class="hero">Search Classes</div>
+
+  </header>
+
+  <main class="container">
+    <button class="btn btn-primary">SEARCH</button>
+
+    <h3 class="section-title">SUGGESTIONS</h3>
+    <button class="btn btn-primary">EXPLORE PROGRAMS</button>
+    <button class="btn btn-primary">DEGREE AUDIT &amp; ADVISING</button>
+
+    <h3 class="section-title">CARTS</h3>
+
+<!-- Primary Cart -->
+<section class="block">
+  <header class="block-title">PRIMARY CART</header>
+  <div class="block-body">
+    <select class="select"><option>Select a Cart...</option></select>
+  </div>
+</section>
+
+<!-- Primary Plan -->
+<section class="block">
+  <header class="block-title">PRIMARY PLAN</header>
+  <div class="block-body">
+    <select class="select" id="planSelect"><option>Select a Plan...</option></select>
+  </div>
+</section>
+
+<!-- Move Plan to Cart -->
+<section class="block">
+  <header class="block-title">MOVE PLAN TO CART</header>
+  <div class="block-body">
+    <select class="select" id="moveSelect"><option>Select a Plan...</option></select>
+  </div>
+</section>
+
+  </main>
+
+  <script>
+    document.getElementById('moveBtn').addEventListener('click', ()=>{
+      const t=document.getElementById('toast'); t.hidden=false; setTimeout(()=>t.hidden=true,2000);
+    });
+  </script>
+</body>
+</html>
