@@ -43,6 +43,8 @@ Portions of the CSS (e.g., Flexbox layout and button styling) were adapted or ge
   CSS for background colors and borders of “Suggestions” and “Carts” sections.
 
   Mock “Move Plan to Cart” button styling and suggested placement.
+  
+Also, I used AI for JavaScript snippet for toast feedback
 
 
 The overall design is based on the Path@Penn interface but simplified for prototype demonstration.
